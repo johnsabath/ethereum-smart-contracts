@@ -1,0 +1,22 @@
+{
+  "name": "ethereum-smart-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testrpc": "testrpc",
+    "compile": "rm -rf build && truffle compile && typechain --glob build/contracts/**/*.json",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "solc": "^0.4.19",
+    "truffle": "^4.0.4",
+    "typechain": "^0.1.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "web3": "^0.20.1"
+  }
+}
