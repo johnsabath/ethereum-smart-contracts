@@ -37,7 +37,7 @@ contract Voting {
   }
 
   function validCandidate(bytes32 candidate) view public returns (bool) {
-    for(uint i = 0; i < candidateList.length; i++) {
+    for (uint i = 0; i < candidateList.length; i++) {
       if (candidateList[i] == candidate) {
         return true;
       }
