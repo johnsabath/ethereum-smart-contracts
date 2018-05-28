@@ -1,8 +1,8 @@
 ## Purpose
 
-This repo is an exploration into the [Truffle framework](https://github.com/trufflesuite/truffle) for building decentralized web applications on Ethereum.
+This repo is an exploration into the [Truffle framework](https://github.com/trufflesuite/truffle) for developing decentralized applications on the [Ethereum network](https://www.ethereum.org/).
 
-Smart contracts written in [Solidity](https://github.com/ethereum/solidity) can be deployed to the Etherum mainnet or testnet, or tested locally on an emulated blockchain provided by Truffle.
+Smart contracts written in [Solidity](https://github.com/ethereum/solidity) can be deployed to the Ethereum mainnet or testnet, or tested locally on an emulated blockchain provided by Truffle.
 
 It also uses [Typechain](https://github.com/Neufund/TypeChain) to generate TypeScript bindings for the smart contracts, so that they can be easily integrated with a frontend application.
 
