@@ -10,7 +10,9 @@ contract("Voting", accounts => {
       .then(ins => (instance = ins))
       .then(_ => instance.totalVotesFor.call("Rama"))
       .then(totalVotes => (initialVotes = totalVotes))
-      .then(_ => instance.voteForCandidate("Rama", { from: accounts[0] }))
+      .then(_ => instance.voteForCandidate("Rama", {
+        from: accounts[0]
+      }))
       .then(_ => instance.totalVotesFor.call("Rama"))
       .then(totalVotes => (updatedVotes = totalVotes))
       .then(_ => {
